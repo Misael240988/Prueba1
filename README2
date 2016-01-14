@@ -1,0 +1,25 @@
+para configurar Got en la computadora:
+
+git config --global user.name "Msael240988"
+git config --global user.email "misael240988@hotmail.com"
+
+
+Generando una public key:
+Para crear una cuenta ssh
+ssh-keygen
+
+para leer la llave
+cat ~/.ssh/id_rsa-pub
+
+
+git init
+
+touch README
+
+git add README
+
+git commit -m "comentar el avanvce que se tiene"
+
+git push origin master
+
+git status  //para checar modificaciones en los proyectos
